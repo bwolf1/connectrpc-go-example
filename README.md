@@ -2,6 +2,10 @@
 
 Built originally based on the official tutorial @ <https://connectrpc.com/docs/go/getting-started/>
 
+## Goals
+
+Get familiar with [ConnectRPC](https://connectrpc.com/)
+
 ## Running the Server
 
 ```shell
