@@ -4,7 +4,8 @@ Built originally based on the official tutorial @ <https://connectrpc.com/docs/g
 
 ## Goals
 
-Get familiar with [ConnectRPC](https://connectrpc.com/)
+1. Get some quick familiarity with [ConnectRPC](https://connectrpc.com/)
+2. Make a template to build off of later.
 
 ## Running the Server
 
