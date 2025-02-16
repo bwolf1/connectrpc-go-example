@@ -4,8 +4,8 @@ Built originally based on the official tutorial @ <https://connectrpc.com/docs/g
 
 ## Goals
 
-1. Get some quick familiarity with [connect-go](https://github.com/connectrpc/connect-go) and [buf](https://github.com/bufbuild/buf).
-2. Make a template to build off of later.
+- Get some quick familiarity with [connect-go](https://github.com/connectrpc/connect-go) and [buf](https://github.com/bufbuild/buf)
+- Make a template to build off of later
 
 ## Running the Server
 
