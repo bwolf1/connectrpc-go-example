@@ -1,11 +1,11 @@
 # connectrpc-go-example
 
-Built originally based on the official tutorial @ <https://connectrpc.com/docs/go/getting-started/>
+Built using the [official tutorial](https://connectrpc.com/docs/go/getting-started/)
 
 ## Goals
 
 - Get some quick familiarity with [connect-go](https://github.com/connectrpc/connect-go) and [buf](https://github.com/bufbuild/buf)
-- Make a template to build off of later
+- Have a template to use for something else
 
 ## Running the Server
 
