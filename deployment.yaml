@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: greetservice-deployment
+  labels:
+    app: greetservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: greetservice
+  template:
+    metadata:
+      labels:
+        app: greetservice
+    spec:
+      containers:
+      - name: greetservice
+        image: bwolf2/greetservice:latest
+        ports:
+        - containerPort: 8080

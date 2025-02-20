@@ -18,13 +18,6 @@ func main() {
 		"http://localhost:8080",
 	)
 
-	// Create a new gRPC client
-	// client := greetv1connect.NewGreetServiceClient(
-	//     http.DefaultClient,
-	//     "http://localhost:8080",
-	//     connect.WithGRPC(),
-	//   )
-
 	res, err := client.Greet(
 		context.Background(),
 		connect.NewRequest(&greetv1.GreetRequest{Name: "Jane"}),
